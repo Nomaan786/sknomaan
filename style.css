@@ -64,3 +64,23 @@ body{
     width: 1rem;
     padding: 8px;
 }
+/* About Section */
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+    border: 3px solid white
+}
+
