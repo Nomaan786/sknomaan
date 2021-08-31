@@ -83,4 +83,17 @@ body{
     box-shadow: 1px 1px 10px 2px lightgrey;
     border: 3px solid white
 }
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
 
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
