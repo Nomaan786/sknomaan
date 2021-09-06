@@ -11,7 +11,7 @@ body {
 
 #body-header {
     height: 65vh;
-    background-image: url(image/header_image.jpg);
+    background-image: url(image/header_image.webp);
     opacity: 0.9;
     background-position: center;
     background-size: cover;
