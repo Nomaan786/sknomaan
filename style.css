@@ -146,14 +146,6 @@ section:nth-child(2n + 1) {
 
 /* Skill Section  */
 
-section:nth-child(2n) {
-    background-color: rgb(202, 196, 196);
-}
-
-section:nth-child(2n +1) {
-    background-color: white;
-}
-
 .section-heading {
     width: auto;
     padding: 20px 10px 10px;
@@ -229,20 +221,107 @@ section:nth-child(2n +1) {
 #timeline {
     position: relative;
     width: 75%;
-    border: 2px solid black;
 }
 
 .timeline-box {
-    position: relative;
+    padding: 5px;
     width: 40%;
-    margin: 5px;
-    left: 5%;
     min-height: 150px;
-    border: 2px solid black;
+    position: relative;
+    left: 5%;
+    text-align: right;
+}
+
+
+/* Timeline-divider */
+
+.timeline-box::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    right: -12.5%;
+    border-radius: 50px;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: lightgray;
+    z-index: 1;
 }
 
 .timeline-box:nth-child(2n) {
     left: 53%;
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    right: -11.5%;
+}
+
+.timeline-box:nth-child(2n)::after {
+    left: -7.5%;
+}
+
+.timeline-container {
+    padding: 8px;
+}
+
+.timeline-logo {
+    position: absolute;
+    width: 50px;
+    overflow: hidden;
+}
+
+.timeline-logo>img {
+    width: 100%;
+}
+
+.timeline-divider {
+    position: absolute;
+    width: 0px;
+    height: 75%;
+    border: 3px dashed#0096fa6b;
+    top: 10%;
+    left: 50%;
+}
+
+.timeline-traveller {
+    position: sticky;
+    top: 30%;
+    z-index: 2;
+}
+
+.timeline-divider i {
+    transform: rotate(90deg);
+    margin-top: -35px;
+    display: block;
+    color: #2857a4;
+}
+
+.experience-designation {
+    font-size: 1.4rem;
+}
+
+.experience-company-name {
+    margin: 5px 0 0;
+    color: #eb822d;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.experience-duration {
+    color: #9e9b9b;
+    font-weight: 100;
+    color: grey;
+    font-size: 1rem;
+}
+
+.experience-description {
+    font-size: 14px;
+    padding: 2px;
+    color: grey;
+    line-height: 20px;
+}
+
+.text-align-justify {
+    text-align: justify;
 }
 
 
