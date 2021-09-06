@@ -201,7 +201,8 @@ section:nth-child(2n +1) {
     box-shadow: 1px 1px 5px 2px #989882;
 }
 
-.skill-name span {
+
+/* .skill-name span {
     color: white;
     font-size: 1rem;
     margin-top: 10px;
@@ -209,6 +210,39 @@ section:nth-child(2n +1) {
     vertical-align: middle;
     font-size: 25px;
     font-family: sans-serif;
+} */
+
+.skill-name {
+    font-size: 17px;
+    color: white;
+    padding: 8px 0px 10px 20px;
+    font-family: sans-serif;
+}
+
+.skill-name span {
+    margin: 0px;
+}
+
+
+/* Timeline */
+
+#timeline {
+    position: relative;
+    width: 75%;
+    border: 2px solid black;
+}
+
+.timeline-box {
+    position: relative;
+    width: 40%;
+    margin: 5px;
+    left: 5%;
+    min-height: 150px;
+    border: 2px solid black;
+}
+
+.timeline-box:nth-child(2n) {
+    left: 53%;
 }
 
 
