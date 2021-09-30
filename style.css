@@ -241,7 +241,7 @@ section:nth-child(2n + 1) {
 }
 
 .timeline-box:nth-child(2n+1)::after {
-    right: -11.5%;
+    right: -14.5%;
 }
 
 .timeline-box:nth-child(2n)::after {
